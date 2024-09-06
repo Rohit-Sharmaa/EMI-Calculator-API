@@ -103,18 +103,30 @@ Response:
 }
 ```
 
+![Request body ](./assests/calculate-emi%20request.png)
+
+![Response](./assests//calculate%20emi%20response.png);
+
 2. Get all EMI records.
 
 Method - GET
 
 ```
+
 /api/emis
+
 ```
+
+![Request and Response](./assests//get%20all%20emi.png)
 
 3. Get a specific EMI record by ID.
 
 Method - GET
 
 ```
+
  /api/emi/:id:
+
 ```
+
+![Request and Response](./assests/get%20emi%20with%20id.png)

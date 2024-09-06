@@ -16,6 +16,14 @@ Before you begin, ensure you have the following installed:
 
 ### Step 1: Clone the Repository
 
+1. Go inside Backend folder
+
+```
+
+cd backend
+
+```
+
 ### Step 2: Create PostgreSQL Database
 
 1. Open your PostgreSQL client (like pgAdmin or psql).
@@ -26,7 +34,7 @@ Before you begin, ensure you have the following installed:
 ### Step 3: Run the SQL Migration Script
 
 1. Open the SQL script migrations/setup.sql.
-2. Run the script to create the necessary table:
+2. Run the script to create the necessary table in the postgresql:
 
 ```
 \i migrations/setup.sql
@@ -35,7 +43,7 @@ Before you begin, ensure you have the following installed:
 
 ### Step 4: Configure Environment Variables
 
-1. Create a .env file in the root directory.
+1. Create a .env file inside the backend folder directory.
 2. Add your database credentials:
 
 .env
